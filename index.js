@@ -1,8 +1,8 @@
 // array of questions for user
 
 var inquirer = require("inquirer");
-var fs = reqiure('fs');
-var generateMarkdown = require("./generateMarkdown.js")
+var fs = require('fs');
+var generateMarkdown = require("./generateMarkdown.js");
 
 
 inquirer.prompt = ([
@@ -40,7 +40,6 @@ inquirer.prompt = ([
         "GPL 3.0",
         "BSD",
         "None"
-
         ]
 
     },
@@ -70,22 +69,15 @@ inquirer.prompt = ([
         message:"What does the user need to know about contributing to the repo?"
     },
 
-function writeToFile(fileName, data,){
 
-}
-
-function init(){
-
-}
-init();
 
 ]).then(answers => {
     console.log(answers);
-    var readMe = data.name.toLowerCase().split(' ').join('') + ".json"
-    fs.writeFile(answe + "json", jsonString, function (err){
-        if (err){
-            return console.log(err);
-        }
+    
+    var readMe = generateMarkdown(answers)
+    
+    fs.writeFile("README.md", readme, err =>{
+        
     })
 });
 
