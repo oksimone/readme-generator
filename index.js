@@ -1,10 +1,11 @@
 // array of questions for user
 
-// var inquirer = require("inquirer");
+var inquirer = require("inquirer");
+var fs = reqiure('fs');
+var generateMarkdown = require("./generateMarkdown.js")
 
-// inqurer
 
-const questions = [
+inquirer.prompt = ([
     {
         // input
         type: "input",
@@ -31,10 +32,16 @@ const questions = [
     },
     {
         // checkboxes
-        type: "input",
+        type: "checkbox",
         name: "license",
-        message: "What kind of license should your project have?"
-        // MIT
+        message: "What kind of license should your project have?",
+        choices: ["MIT",
+        "APACHE 2.0",
+        "GPL 3.0",
+        "BSD",
+        "None"
+
+        ]
 
     },
     {
@@ -59,29 +66,38 @@ const questions = [
     {
         // input
         type: "input",
-        name:"name",
+        name:"contribution",
         message:"What does the user need to know about contributing to the repo?"
     },
 
-   
+function writeToFile(fileName, data,){
 
-    // {
-    //     type: "list",
-    //     name:"animal",
-    //     message:"What is your favourite animal?",
-    //     choices:["lion","cheetah"]
-    // }
-];
+}
+
+function init(){
+
+}
+init();
+
+]).then(answers => {
+    console.log(answers);
+    var readMe = data.name.toLowerCase().split(' ').join('') + ".json"
+    fs.writeFile(answe + "json", jsonString, function (err){
+        if (err){
+            return console.log(err);
+        }
+    })
+});
 
 // function to write README file
-function writeToFile(fileName, data) {
+// function writeToFile(fileName, data) {
 
-}
+// }
 
 // function to initialize program
-function init() {
+// function init() {
 
-}
+// }
 
 // function call to initialize program
-init();
+// init();
