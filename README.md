@@ -1,34 +1,9 @@
-# kirs
+# README Generator
 
-  ## Description
-  ducky
+Ninth homework assignment of my Full Stack Bootcamp! 
 
-  ## Table of Contents
+Description: Create a command-line application that dynamically generates a professional README.md from a user's input using the [Inquirer Package](https://www.npmjs.com/package/inquirer)
 
-  * [Installation](#Installation)
-  * [Usage](#usage)
-  * [License](#License)
-  * [Contributing](#Contribution)
-  * [Tests](#Test)
-  * [Questions](#Questions)
+Below, you'll be able to view my gif of how the readme generator works.
 
-  ## Installation
-
-  npm i
-
-  ## Usage
-  yes
-
-  ## License
-
-![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
-
-  ## Contribution
-  hs
-
-  ## Test
-
-  npm test
-
-  ## Questions
-  If you have any questions, please contact me on [GitHub](http://github.com/kris), Or, email me at worthy
+To view the result, look at [this page]()

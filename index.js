@@ -78,7 +78,7 @@ inquirer.prompt([
 
     var readMe = generateMarkdown(answers)
 
-    fs.writeFile("README.md", readMe, err => {
+    fs.writeFile("README1.md", readMe, err => {
 
     })
 })
