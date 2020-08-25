@@ -1,30 +1,30 @@
-# undefined
+# ducky
 
   ## Description
-  ducky go quack
+  rubber ducky
 
   ## Table of Contents
 
-  1.[Installation][#Installation]
-  2.[Usage][#usage]
-  3.[License][#License]
-  4.[Contributing][#Contributing]
-  5.[Tests][#Test]
-  6.[Questions][#Questions]
+  * [Installation](#Installation)
+  * [Usage](#usage)
+  * [License](#License)
+  * [Contributing](#Contribution)
+  * [Tests](#Test)
+  * [Questions](#Questions)
 
   ## Installation
 
-  undefined
+  npm i
 
   ## Usage
-  undefined
+  commit often
 
   ## License
 
-![github license](https://img.shields.io/badge/license-MIT-blue.svg)
+![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Contribution
-  go crazy well
+  dont step on others work
 
   ## Test
 
