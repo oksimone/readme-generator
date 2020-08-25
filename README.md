@@ -6,6 +6,6 @@ Description: Create a command-line application that dynamically generates a prof
 
 Below, you'll be able to view my gif of how the readme generator works.
 
-![ReadMe Gif](https://github.com/oksimone/readme-generator/blob/master/assets/readme%20gif.gif)
+![ReadMe Gif](https://github.com/oksimone/readme-generator/blob/master/assets/README%20Gif%20(1).gif)
 
 To view the result, look at [README Generator](https://github.com/oksimone/readme-generator/blob/master/README1.md)
