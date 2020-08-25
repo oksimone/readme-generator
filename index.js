@@ -46,6 +46,7 @@ inquirer.prompt([
     {
         type: "input",
         name: "dependencies",
+        default: "npm i",
         message: "What command should be run to install dependencies?"
         // npm i
     },
@@ -53,6 +54,7 @@ inquirer.prompt([
         // input?
         type: "input",
         name: "test",
+        default: "npm test",
         message: "What command should be run to run tests?"
         // npm test
     },

@@ -1,7 +1,7 @@
-# ducky
+# kirs
 
   ## Description
-  rubber ducky
+  ducky
 
   ## Table of Contents
 
@@ -17,18 +17,18 @@
   npm i
 
   ## Usage
-  commit often
+  yes
 
   ## License
 
 ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Contribution
-  dont step on others work
+  hs
 
   ## Test
 
   npm test
 
   ## Questions
-  If you have any questions, please contact me on [GitHub](http://github.com/oksimone), Or, email me at ksworthy
+  If you have any questions, please contact me on [GitHub](http://github.com/kris), Or, email me at worthy
