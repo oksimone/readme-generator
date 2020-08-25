@@ -1,7 +1,7 @@
-# readme generator
+# README Generator
 
   ## Description
-  create a good readme generator
+  create a readme generator
 
   ## Table of Contents
 
