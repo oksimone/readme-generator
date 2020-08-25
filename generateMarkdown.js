@@ -10,7 +10,7 @@ function generateMarkdown(data) {
   1.[Installation][#Installation]
   2.[Usage][#usage]
   3.[License][#License]
-  4.[Contributing][#Contributing]
+  4.[Contributing][#Contribution]
   5.[Tests][#Test]
   6.[Questions][#Questions]
 
